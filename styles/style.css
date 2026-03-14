@@ -32,12 +32,16 @@ nav a {
     font-weight: bold;
 }
 
-/* Section de contenu */
+/* Section de contenu (Version corrigée) */
 section {
-    padding: 20px;
+    padding: 30px;
     background: white;
-    margin: 10px;
-    border-radius: 5px;
+    margin: 20px;          /* Créé un petit espace autour de la carte */
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Petite ombre pour faire propre */
+    
+    /* Supprime tout ce qui pourrait limiter la largeur */
+    display: block; 
 }
 
 /* Le bouton rouge simple */
