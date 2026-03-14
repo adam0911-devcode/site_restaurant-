@@ -173,12 +173,13 @@ nav a {
 /* Les sections (Effet "Card" moderne) */
 section {
     background: white;
-    max-width: 800px;      /* Empêche la section de s'étaler sur tout l'ordi */
-    margin: 30px auto;     /* Centre le bloc au milieu de l'écran */
-    padding: 30px;
+    max-width: 800px;      /* Garde la carte compacte */
+    margin: 40px auto;     /* Centre la carte sur l'écran */
+    padding: 40px;         /* Donne de l'espace interne */
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    text-align: center;    /* Centre le texte à l'intérieur pour un look plus pro */
+    
+    text-align: center;    /* <--- AJOUTE CETTE LIGNE : Centre tout le contenu */
 }
 
 /* LE BOUTON (Le plus important sur mobile) */
