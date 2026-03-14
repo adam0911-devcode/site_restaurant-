@@ -173,15 +173,12 @@ nav a {
 /* Les sections (Effet "Card" moderne) */
 section {
     background: white;
-    /* --- C'EST ICI QUE LA MAGIE OPÈRE --- */
-    max-width: 800px;      /* Empêche la section de devenir trop large sur ordi */
-    margin: 30px auto;     /* Centre la section et ajoute de l'espace haut/bas */
-    /* ------------------------------------ */
-    
+    max-width: 800px;      /* Empêche la section de s'étaler sur tout l'ordi */
+    margin: 30px auto;     /* Centre le bloc au milieu de l'écran */
     padding: 30px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-    text-align: center;    /* Centre le texte pour un look plus "Menu" */
+    text-align: center;    /* Centre le texte à l'intérieur pour un look plus pro */
 }
 
 /* LE BOUTON (Le plus important sur mobile) */
