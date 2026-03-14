@@ -173,10 +173,15 @@ nav a {
 /* Les sections (Effet "Card" moderne) */
 section {
     background: white;
-    margin: 20px;
-    padding: 25px;
-    border-radius: 15px; /* Bords arrondis comme sur les apps */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05); /* Ombre légère */
+    /* --- C'EST ICI QUE LA MAGIE OPÈRE --- */
+    max-width: 800px;      /* Empêche la section de devenir trop large sur ordi */
+    margin: 30px auto;     /* Centre la section et ajoute de l'espace haut/bas */
+    /* ------------------------------------ */
+    
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    text-align: center;    /* Centre le texte pour un look plus "Menu" */
 }
 
 /* LE BOUTON (Le plus important sur mobile) */
